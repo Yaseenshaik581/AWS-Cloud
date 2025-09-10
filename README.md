@@ -1,2 +1,11 @@
 # AWS-Cloud
-Can't upload the files because it's too large so contact me to view the code and documentation.
+Amazon Web Services (AWS) is a dynamic cloud computing platform that keeps evolving and is loved by millions of users and businesses around the world (Amazon, 2022i). AWS provides a wide range of cloud computing services, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS), along with hundreds of products and tools designed to help customers create the perfect cloud environment (Gillis, 2020). IaaS is a go-to service for network architects who need to access virtualized computing resources like virtual storage and machines over the internet. PaaS is favored by app developers for its tools that facilitate the development and deployment of applications. Meanwhile, SaaS is popular among businesses and their customers, as it allows companies to host their software or websites, making them easily accessible to users (GeeksforGeeks, 2022). Shirley Rodriguez, a researcher at the Example Social Research Organization, created a website to share her collected data with fellow researchers. She stored the data in a MySQL database, which could be accessed through the PHP website she developed. However, after launching the site with a less-than-reliable commercial hosting provider, she faced a slew of complaints as the site gained traction and traffic. Issues included slow website performance and attempts at ransomware attacks, which fortunately were thwarted. Consequently, she opted to temporarily migrate her website and database to AWS by running an EC2 instance with a MySQL setup in a public subnet. To improve her website further, our team was brought in to implement a more secure and robust platform on AWS. We aimed to adhere to the latest best practices while staying within budget, ensuring the new site would be more resilient and secure, with the ability to return data from the query page. 
+
+A detailed list was created to outline the requirements.
+• Provide secure hosting of the MySQL database.
+• Provide secure access for an administrative user.
+• Provide anonymous access to web users.
+• Run the website on a t2.small EC2 instance, and provide Secure Shell (SSH) access to administrators.
+• Provide high availability to the website through a load balancer.
+• Store database connection information in the AWS Systems Manager Parameter Store.
+• Provide automatic scaling that uses a launch template.
